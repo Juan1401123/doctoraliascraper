@@ -1,44 +1,187 @@
-nombre,especialidad,numero de telefono,rating,direccion,url,clinica
-Paulina Arellano Álvarez,Pediatra,['55 9692 8436'],5 91 opiniones,"Calle de Durango 33 Consultorio 62 A Piso 6,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/paulina-arellano-alvarez-2/pediatra/ciudad-de-mexico#address-id=436261&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Roma
-Cinthya Salcedo Altamirano,Pediatra,"['55 4444 3997', '55 3202 0267']",5 118 opiniones,"Calle Gabriel Mancera 1361, Col. del Valle Sur, Benito Juarez,Colonia Del Valle Centro,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/cinthya-salcedo-altamirano/pediatra/ciudad-de-mexico#address-id=137937&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Privado
-Antelmo Martinez Osorio,Pediatra,['55 5419 1009'],5 13 opiniones,"Rancho las pampas 97 Santa Cecilia,Cafetales I,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/antelmo-martinez-osorio/pediatra/coyoacan#address-id=452465&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Privado
-Noemí Hernández Trejo,Pediatra,['55 1375 1447'],5 10 opiniones,,https://www.doctoralia.com.mx/noemi-hernandez-trejo/pediatra/benito-juarez#address-id=549621&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"TORRE DE CONSULTORIOS, 4º PISO, CONSULTORIO 410"
-Sofia Trejo Mendez,Neonatólogo,"['55 2327 7560', '55 2839 4539']",5 122 opiniones,"Av. Sor Juana Ines de la Cruz 280,San Lorenzo,Tlalnepantla de Baz Ciudad de México",https://www.doctoralia.com.mx/sofia-trejo-mendez/neonatologo-pediatra/tlalnepantla-de-baz2#address-id=416486&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Starmedica Tlalnepantla 615
-Claudio César Mendoza Betancourt,Pediatra,"['993 383 2647', '55 2625 4291']",5 323 opiniones,"Av. Lomas Verdes 2165,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/claudio-cesar-mendoza-betancourt/pediatra/naucalpan-de-juarez2#address-id=10647&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,
-Ana Karina Lopez Valencia,Neurólogo pediatra,['55 4343 8083'],5 336 opiniones,"Avenida Sor Juana Inés de La Cruz 280, San Lorenzo,San Lorenzo,Tlalnepantla de Baz Ciudad de México",https://www.doctoralia.com.mx/ana-karina-lopez-valencia/neurologo-infantil-pediatra/tlalnepantla-de-baz2#address-id=371677&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Torre de consultorios Starmedica Tlalnepantla
-Diana Martínez Medel,Cirujano pediátrico,['55 9692 7031'],5 51 opiniones,"Avenida Presidente Masaryk 134,Polanco V Sección,Miguel Hidalgo Ciudad de México",https://www.doctoralia.com.mx/diana-martinez-medel-2/cirujano-pediatrico-pediatra/miguel-hidalgo#address-id=502767&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Masaryk Medical Center
-Daniel Alexandro Salinas Morales,Pediatra,['55 9692 3969'],5 19 opiniones,"Viaducto Río Becerra 97,Nápoles,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/daniel-alexandro-salinas-morales/pediatra/magdalena-contreras2#address-id=542841&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Infantil Privado
-M Fernanda Rodarte J,Pediatra,"['55 2306 4557', '55 1502 4678']",5 102 opiniones,"Sor Juana Ines de la Cruz 280,Tlalnepantla de Baz Ciudad de México",https://www.doctoralia.com.mx/m-fernanda-rodarte-j/pediatra-neonatologo/tlalnepantla-de-baz2#address-id=447008&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Echegaray
-Diana Morones Navarrete,Pediatra,['55 3646 8441'],5 58 opiniones,"Avenida Miguel Ángel de Quevedo 1144,Parque San Andrés,Coyoacán Ciudad de México",https://www.doctoralia.com.mx/diana-morones-navarrete/pediatra/coyoacan#address-id=547568&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,MEDHAUS COYOACÁN- CONSULTORIO D103
-Valeria Aurora Borrajo Mercado,Pediatra,['55 9692 8957'],5 41 opiniones,"Av. Río San Joaquín 351,Ampliación Popo,Miguel Hidalgo Ciudad de México",https://www.doctoralia.com.mx/valeria-aurora-borrajo-mercado/pediatra-neonatologo/tlalnepantla-de-baz2#address-id=500247&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio 1 Piso 11
-Stefanie Reyes Velázquez,Infectólogo pediatra,['55 9692 7256'],5 14 opiniones,"Francisco del Paso y Troncoso 349 Departamento 1,Jardín Balbuena,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/stefanie-reyes-velazquez/infectologo-pediatra-pediatra/ciudad-de-mexico#address-id=540852&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Atención pediatría integral
-Ernesto Alarcón Cabrera,Pediatra,['55 6602 1938'],5 68 opiniones,"Circuito Científicos 13,Ciudad Satélite,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/ernesto-alarcon-cabrera/pediatra-neurologo-infantil/naucalpan-de-juarez2#address-id=408474&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Centro Médico Científicos
-Dalia Itzel Tello López,Pediatra,['55 2105 0159'],5 7 opiniones,"Av. del Conscripto 402,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/dalia-itzel-tello-lopez/pediatra/naucalpan-de-juarez2#address-id=541433&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Punta Médica
-Moisés Mier Martínez,Cardiólogo pediátrico,"['55 2625 1700', '55 5343 7284']",5 150 opiniones,"Av. Lomas Verdes 2165,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/moises-mier-martinez/cardiologo-pediatrico-pediatra/naucalpan-de-juarez2#address-id=74557&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,
-Angel Eduardo Ceballos Cruz,Pediatra,['987 117 6010'],5 4 opiniones,"Periferico Sur 5246,Pedregal De Carrasco,Coyoacán Ciudad de México",https://www.doctoralia.com.mx/angel-eduardo-ceballos-cruz/pediatra/coyoacan#address-id=506737&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital MAC Periférico Sur - Consultorio 819
-Daniel Almaraz Guerra,Endocrinólogo pediátrico,['55 3913 6972'],5 22 opiniones,"Moras 409,Tlacoquemecatl Del Valle,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/daniel-almaraz-guerra/endocrinologo-pediatrico-pediatra/benito-juarez#address-id=509182&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Moras Medical Center (consultorio 22)
-Leticia Andrade Flores,Neonatólogo,"['55 1668 1259', '55 1668 2979']",5 26 opiniones,"Boulevard Adolfo López Mateos 98,Jardines De Atizapan,Atizapán de Zaragoza Ciudad de México",https://www.doctoralia.com.mx/leticia-andrade-flores/neonatologo-pediatra/atizapan-de-zaragoza#address-id=28336&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Pabellón Medico Atizapán
-Anali Meza Gallegos,Cirujano pediátrico,"['55 8305 1131', '55 5504 5019']",5 15 opiniones,"Avenida Universidad 1080,Xoco,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/anali-meza-gallegos/cirujano-pediatrico-pediatra/benito-juarez#address-id=486665&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Ángeles Universidad - Consultorio 5035
-Ana Luisa Miranda Vega,Pediatra,['55 4044 6151'],5 34 opiniones,"Calle Rio Bamba 639,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/ana-luisa-miranda-vega/pediatra-neonatologo/ciudad-de-mexico#address-id=434941&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Consultorio Privado 320, 3er Piso"
-Leslie A. Vega Pastor,Pediatra,['55 4006 4499'],5 41 opiniones,"Calle Valencia No. 46,Insurgentes Mixcoac,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/leslie-a-vega-pastor/pediatra-neonatologo/benito-juarez#address-id=479268&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,PRIVADA
-Juan Carlos Bustamante Ogando,Inmunólogo,['55 9154 0153'],5 16 opiniones,"Fuente de Piramides 1-304,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/juan-carlos-bustamante-ogando/inmunologo-pediatra-alergologo/huixquilucan#address-id=31323&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,
-Ivette Victorino,Pediatra,['55 1136 2142'],5 174 opiniones,"Calle Querétaro 144, Roma Norte,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/ivette-victorino/pediatra-infectologo-pediatra/ciudad-de-mexico#address-id=413631&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Hospital Star Médica Roma, Torre II de Consultorios"
-Sarbelio Moreno Espinosa,Infectólogo,['55 5171 7237'],4.5 15 opiniones,"Puente De Piedra 150,Toriello Guerra,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/sarbelio-moreno-espinosa-2/infectologo-pediatra/ciudad-de-mexico#address-id=149623&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Medica Sur Tlalpan. Consultorio 815. Torre 2
-Karina Chavez Angeles,Pediatra,"['56 2318 5780', '442 112 7818']",5 6 opiniones,"Avenida Río Churubusco 601,Xoco,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/karina-chavez-angeles/pediatra/miguel-hidalgo#address-id=535558&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Hospital San Ángel Inn Universidad, Torre 2"
-Carlos Eduardo Vargas Verduzco,Pediatra,['686 230 1235'],5 1 opinión,"Nicolás Bravo 29,Santa María Tepepan,Xochimilco Ciudad de México",https://www.doctoralia.com.mx/carlos-eduardo-vargas-verduzco/pediatra/benito-juarez#address-id=543232&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital San Juan - Consultorio 2
-Edgar Allan del Valle Villafuerte,Pediatra,['56 1547 4322'],5 7 opiniones,"Viaducto Río Becerra 97,Nápoles,Miguel Hidalgo Ciudad de México",https://www.doctoralia.com.mx/edgar-allan-del-valle-villafuerte/pediatra-especialidad-en-medicina-del-enfermo-pediatrico-en-estado-critico/miguel-hidalgo#address-id=499928&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Infantil Privado
-Pamela Fernandez Esquivel,Cirujano pediátrico,['55 3672 9700'],4.5 6 opiniones,"Avenida Lomas Verdes 554,Lomas Verdes,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/pamela-fernandez-esquivel/cirujano-pediatrico-pediatra/naucalpan#address-id=514248&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado
-Sarahí Osiris Barrera Hernández,Pediatra,['56 4467 8824'],5 10 opiniones,"Monte Albán 126 Oficina 303,Narvarte Poniente,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/sarahi-osiris-barrera-hernandez/pediatra/benito-juarez#address-id=499783&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Médico Pediatra Narvarte
-Eduardo Bustillo del Cueto,Pediatra,"['55 5682 8458', '55 8419 7633']",5 12 opiniones,"Calle Nueva York 32,Nápoles,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/eduardo-bustillo-del-cueto/medico-general/benito-juarez#address-id=422772&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Cardiopediatría Nápoles
-Marcela Martinez Cornejo,Pediatra,"['55 1287 1287', '55 2307 7009']",5 1 opinión,"Tuxpan 54,Roma Sur,Cuauhtémoc Ciudad de México",https://www.doctoralia.com.mx/marcela-martinez-cornejo/pediatra/cuauhtemoc2#address-id=516449&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Torre médica
-Harold Enrique Castro Anaya,Cirujano pediátrico,['443 302 9520'],5 12 opiniones,"Calle Nueva York 7,Nápoles,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/harold-enrique-castro-anaya/cirujano-pediatrico-pediatra/benito-juarez#address-id=507987&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Infantil Privado
-Emmanuel Alejandro Roldan Vences,Pediatra,['55 8896 7212'],5 61 opiniones,"Camino Sta. Teresa 1055-S,Héroes De Padierna,Magdalena Contreras Ciudad de México",https://www.doctoralia.com.mx/emmanuel-alejandro-roldan-vences/pediatra-nefrologo-infantil/benito-juarez#address-id=141723&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Hospital Ángeles Pedregal, torre clínica, consultorio 994"
-Thanya Asse Zapan,Pediatra,['55 4747 9306'],5 15 opiniones,"Prolongación Paseo de la Reforma 19,Paseo De Las Lomas,Álvaro Obregón Ciudad de México",https://www.doctoralia.com.mx/thanya-asse-zapan/pediatra/alvaro-obregon#address-id=542175&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consulta Pediatría
-Lizeth Martínez Arcos,Pediatra,['55 3471 9729'],,"Viad. Río Becerra 97,Nápoles,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/lizeth-martinez-arcos/pediatra/benito-juarez#address-id=542581&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Star Médica Hospital Infantil Privado - HIP
-Sonia Cristina Lara Escalera,Pediatra,['55 9692 3002'],5 102 opiniones,"Avenida Sor Juana Inés de La Cruz 280,San Lorenzo,Tlalnepantla de Baz Ciudad de México",https://www.doctoralia.com.mx/sonia-cristina-lara-escalera/pediatra/miguel-hidalgo#address-id=485897&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Star Medica Tlalnepantla CONSULTORIO 819
-José Luis Pinacho Velázquez,Pediatra,"['55 5586 6812', '55 5754 7000']",5 442 opiniones,"Rio Bamba 639,Gustavo A Madero Ciudad de México",https://www.doctoralia.com.mx/jose-luis-pinacho-velazquez/pediatra/gustavo-a-madero#address-id=76768&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,HOSPITAL ANGELES LINDAVISTA CONSULTORIO 215
-Adrián Palacios Cisneros,Pediatra,['55 7425 8602'],5 703 opiniones,"Playa Clavelitos 19,Reforma Iztaccihuatl Sur,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/adrian-palacios-cisneros/pediatra/ciudad-de-mexico#address-id=128137&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado
-Adrián Palacios Cisneros,Pediatra,['55 7425 8602'],5 703 opiniones,"Playa Clavelitos 19,Reforma Iztaccihuatl Sur,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/alfonso-velasco-aznar/pediatra-neonatologo/gustavo-a-madero#address-id=449695&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado
-Viridiana Pantaleón Colín,Pediatra,['55 2898 4759'],5 621 opiniones,"Circuito Circunvalacion Poniente 36k,Ciudad Satélite,Naucalpan de Juárez Ciudad de México",https://www.doctoralia.com.mx/viridiana-pantaleon-colin/pediatra/naucalpan-de-juarez2#address-id=470124&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Vita Medica
-Carla Lorena Echevarria Cespedes,Pediatra,"['55 5677 0931', '55 2106 4075']",5 620 opiniones,"Calz Acoxpa 430, Coapa, Ex-Hacienda Coapa, Tlalpan, 14308 Ciudad de México, CDMX,Tlalpan Ciudad de México",https://www.doctoralia.com.mx/carla-lorena-echevarria-cespedes/pediatra/tlalpan#address-id=359578&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,HOSPITAL ÁNGELES ACOXPA / Consultorio Privado
-Raymundo Tecomulapa M.,Pediatra,['55 9692 3110'],5 304 opiniones,"Ignacio Allende  N. 216,Claveria,Azcapotzalco Ciudad de México",https://www.doctoralia.com.mx/raymundo-tecomulapa-m/pediatra/azcapotzalco#address-id=57722&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,CÓNSULPEDIA
+nombre,especialidad,numero de telefono,rating,direccion,url,clinica,residencia,formacion,linkedinurl,facebookurl,precio
+Ivette Victorino,Pediatra,'55 1136 2142',5 175 opiniones,"Calle Querétaro 144, Roma Norte,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/ivette-victorino/pediatra-infectologo-pediatra/ciudad-de-mexico#address-id=413631&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Hospital Star Médica Roma, Torre II de Consultorios","Residencia
+Realice la especialidad de Pediatría en el Hospital Regional Gral. Ignacio Zaragoza; (ISSSTE) CDMX
+Realice la especialidad de Infectología Pediatrica en el Centro Médico Nacional 20 de Noviembre; ISSSTE","Formación
+Universidad de Montemorelos (Médico Cirujano)
+Universidad Nacional Autónoma de México (Pediatría e Infectología Pediatrica)",,https://www.facebook.com/dra.ivette.infectopedia,"$1,000"
+Antelmo Martinez Osorio,Pediatra,'55 5419 1009',5 13 opiniones,"Rancho las pampas 97 Santa Cecilia,Cafetales I,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/antelmo-martinez-osorio/pediatra/coyoacan#address-id=452465&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Privado,"Residencia
+Escuela de medicina de la Benemérita Universidad Autónoma de Puebla, donde curse la carrera de medicina y la especialidad de pediatría en su Hospital Universitario
+Instituto Nacional de Pediatría, donde curse la Subespecialidad de terapia Intensiva pediátrica
+Universidad de Valle de México campus lomas verdes y Centro Universitario ETAC donde obtuve el grado de maestro en Ciencia de la Educación.","Formación
+Benemérita Universidad Autónoma de Puebla (BUAP)
+Hospital Universitario de de la BUAP
+Instituto Nacional de Pediatría (INP)
+Universidad del Valle de México campus Lomas Verdes y Centro Universitario ETAC",,,$750
+Cinthya Salcedo Altamirano,Pediatra,"'55 4444 3997', '55 3202 0267'",5 118 opiniones,"Calle Gabriel Mancera 1361, Col. del Valle Sur, Benito Juarez,Colonia Del Valle Centro,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/cinthya-salcedo-altamirano/pediatra/ciudad-de-mexico#address-id=137937&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Privado,"Residencia
+• Médico Pediatra Adscrito en el “Hospital Infantil Privado”, Star Médica. México D.F.
+• Médico Pedíatra Adscrito “Centro Médico Nacional Siglo XXI” (Feb 2016 - Actual).
+-Diplomado en Dirección y Administración de Negocios: Instituto Tecnológico Autónomo de Mexico (2014-2015)
+-Miembro Distinguido de la Sociedad Mexicana de Pediatria.
+Mostrar más detalles","Formación
+Licenciatura de Médico Cirujano (UNAM 2000-2007)
+Especialista en Pediatria (Hospital Infantil de México, Fedérico Gómez:2007-2010, avalado por la UNAM)
+MASTER NEUMOLOGIA Y ALERGOLOGIA PEDIATRICA, UNIVERSIDAD DE ALCALA,HOSPITAL RAMÓN Y CAJAL EN M1DR1D(2011-2012).
+ACADEMICO DE LA FACULTAD DE MEDICINA DE LA UNAM.
+Mostrar más detalles",,,"$1,000"
+Verónica Simancas Valencia,Pediatra,"'55 5211 6965', '55 5410 9133'",5 189 opiniones,"Durango 290,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/veronica-simancas-valencia/pediatra/ciudad-de-mexico#address-id=94796&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,CENET Pediatría,"Residencia
+Instituto Nacional de Pediatría
+Centro Hospitalario Sanatorio Durango
+Instituto Mexicano de Estimulación Temprana y Desarrollo Humano
+Asociación Pro Personas con Paralisis Cerebral APAC
+Mostrar más detalles","Formación
+Terapeuta en intervención, estimulación temprana y neurodesarrollo, IMETYD - UNAM, 2017
+Especialista en Pediatría Médica, Instituto Nacional de Pediatría- UNAM, 2007
+Medico Cirujano, Universidad Autónoma de Nayarit 2003
+Escala Bayley III, evaluación del desarrollo neurológico infantil, 2019
+Mostrar más detalles",,https://www.facebook.com/CENETPEDIATRIA/,"$1,200"
+Alejandro García Robles Ortiz,Pediatra,"'55 5340 1000', '55 5340 1000'",5 60 opiniones,"Calle Nueva York 7,Nápoles,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/alejandro-garcia-robles-ortiz/pediatra/benito-juarez#address-id=2472&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Infantil Privado (Star Médica HIP) Consultorio 411,"Residencia
+Methodist Healthcare System, San Antonio, Tx
+Instituto Nacional de Perinatología, CDMX
+Instituto Nacional de Pediatría, CDMX
+Hospital Ángeles Mocel, CDMX
+Mostrar más detalles","Formación
+Médico Cirujano, Universidad Anáhuac, 2014
+Especialista en Pediatría, Hospital Infantil Privado, 2019",https://www.linkedin.com/in/alejandro-garc%C3%ADa-robles-ortiz-345861aa/,,"$1,500"
+Isis Adriana Moctezuma Rebollo,Pediatra,'55 9692 8830',5 324 opiniones,"Calle Genaro García 357,Jardín Balbuena,Venustiano Carranza Ciudad de México",https://www.doctoralia.com.mx/isis-adriana-moctezuma-rebollo/pediatra/benito-juarez#address-id=91124&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado,"Residencia
+Hospital de Pediatría Centro Médico Nacional Siglo XXI","Formación
+Médico Pediatra, UNAM, 2012
+Médico Cirujano, UNAM, 2006
+Certificación, Consejo Mexicano de Pediatria, 2012
+Recertificación, Consejo Mexicano de Pediatría, 2018
+Mostrar más detalles",,https://www.facebook.com/pediatraespecialista/,$400
+Adrián Palacios Cisneros,Pediatra,'55 7425 8602',5 704 opiniones,"Playa Clavelitos 19,Reforma Iztaccihuatl Sur,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/adrian-palacios-cisneros/pediatra/ciudad-de-mexico#address-id=128137&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado,"Residencia
+Hospital General Regional Dr Carlos MacGregor Sanchez Navarro IMSS
+Hospital Pediatrico San Juan de Aragón SSA
+Hospital Infantil del EStado de Sonora
+Hospital General San Luis Rio Colorado, Sonora
+Mostrar más detalles","Formación
+Pediatric Advanced Life Support, American Heart Association, 2016
+Certificación en Pediatría, Consejo Mexicano de Certificación en Pediatría, 2023 - 2028
+Especialista en Pediatría, Universidad Nacional Autónoma de México, 2014 -2017
+Estancia corta en Investigación en el Hospital Dr. Manuel Gea Gonzalez
+Mostrar más detalles",,https://www.facebook.com/Dr-Adri%C3%A1n-Palacios-Pediatra-103826921937443/?ref=pages_you_manage,$800
+Roberto Plascencia González,Alergólogo,'55 6650 9972',5 260 opiniones,"Cozumel 62,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/roberto-plascencia-gonzalez/alergologo-pediatra-inmunologo/miguel-hidalgo#address-id=392235&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Grand Hospital Roma,"Residencia
+Hospital Central Militar
+Unidad de Especialidades Médicas
+Hospital Infantil de México Federico Gómez
+Hospital Militar de Especialidades de la Mujer y Neonatología
+Mostrar más detalles","Formación
+Escuela Médico Militar
+Escuela Militar de Graduados de Sanidad
+Hospital Infantil de México Federico Gómez
+Universidad Nacional Autónoma de México
+Mostrar más detalles",,,$800
+Raymundo Tecomulapa M.,Pediatra,'55 9692 3110',5 306 opiniones,"Ignacio Allende  N. 216,Claveria,Azcapotzalco Ciudad de México",https://www.doctoralia.com.mx/raymundo-tecomulapa-m/pediatra/azcapotzalco#address-id=57722&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,CÓNSULPEDIA,"Residencia
+Secretaria de Salud del Gobierno del Distrito Federal (1998-2001)
+Médico Adscrito en Hospital General Tacuba (2001 al 2003)
+Médico Adscrito en Clinica de ISSEMyM Cuautitlán Izcalli
+Médico Adscrito Hospital General de Tlalnepantla ISSEMyM","Formación
+MEDICO PEDIATRA, UNAM, 2001
+Diplomado en Administración de Hospitales, UNAM, 2009
+Medico Pediatra, UNAM, 2001
+Certificado por el Consejo Mexicano de Pediatría, CMCP, 2018
+Mostrar más detalles",,https://www.facebook.com/search/top/?q=asociaci%C3%B3n%20mexicana%20de%20pediatria&epa=SEARCH_BOX,$350
+Alfonso Velasco Aznar,Pediatra,"'55 1363 7284', '55 5861 3001'",5 189 opiniones,"Riobamba 639 consultorio 374,Lindavista Sur,Gustavo A Madero Ciudad de México",https://www.doctoralia.com.mx/alfonso-velasco-aznar/pediatra-neonatologo/gustavo-a-madero#address-id=449695&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Ángeles Lindavista,"Residencia
+Ángeles Lindavista
+Hospital Español","Formación
+Hospital Español",,,"$1,100"
+Laura Elizabeth Vázquez Ortiz,Pediatra,'56 4794 0517',5 124 opiniones,"Calzada México-Xochimilco 118,Huipulco,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/laura-elizabeth-vazquez-ortiz/pediatra/ciudad-de-mexico#address-id=428446&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Torre Médica Tlalpan,"Residencia
+Hospital Angeles Acoxpa","Formación
+Médico cirujano - Universidad Nacional Autónoma de México
+Especialidad en Pediatría- Hospital Central Sur de Alta Especialidad, PEMEX
+Certificación vigente por el Consejo Mexicano de Certificación en Pediatría",,,"$1,000"
+Jaime Ernesto Alfaro Bolaños,Pediatra,'55 5211 3559',5 32 opiniones,"Tampico 30,Roma Norte,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/jaime-ernesto-alfaro-bolanos/pediatra-gastroenterologo-pediatrico/ciudad-de-mexico#address-id=166219&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,NEDI grupo pediátrico,"Residencia
+Adscrito del servicio de gastroenterología y nutrición pediátrica Centro Médico Nacional 20 de Noviembre ISSSTE
+Speaker en diferentes congresos nacionales e internacionales en temas de nutrición, lactancia materna, oligosacáridos de la leche materna, obesidad, hepatitis, pancreatitis, trasplante hepático pediátrico","Formación
+Instituto Nacional de Pediatría
+Universidad de El Salvador. El Salvador C.A.
+Universidad Autónoma de México UNAM
+Boston Children Hospital, Massachusetts. USA",https://www.linkedin.com/in/jaime-alfaro-gastropedia,,"$1,200"
+Daniel Benjamin Juárez Comboni,Oncólogo pediátrico,"'55 3996 6487', '55 3331 4707'",5 7 opiniones,"Cerrada de Xotepingo 5,Coyoacán Ciudad de México",https://www.doctoralia.com.mx/daniel-benjamin-juarez-comboni/oncologo-pediatrico-pediatra/coyoacan#address-id=496613&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,City live jardjn,"Residencia
+Hospital regional + UMFC 1 IMSS La Paz, BCS
+Hospital Infantil de México Federico Gómez
+Great Ormond Street Hospital, Londres. Uk
+Hospital pediatrico Moctezuma, CDMX.
+Mostrar más detalles","Formación
+Universidad Nacional Autónoma de México
+Hospital infantil de México Federico Gomez",https://mx.linkedin.com/in/daniel-benjam%C3%ADn-ju%C3%A1rez-comboni-166bb589,https://www.facebook.com/danibenjaJC,"$1,200"
+Tania María Vargas Vazquez,Pediatra,'56 2055 1690',5 38 opiniones,"Patricio Sanz 1117,Col. Del Valle,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/tania-maria-vargas-vazquez/pediatra-infectologo/benito-juarez#address-id=436858&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Moras Medical Center Suc Patricio Sanz,"Residencia
+Hospital Regional Lic. Adolfo López Mateos, ISSSTE
+Instituto Nacional de Pediatría, SSA","Formación
+Facultad Mexicana de Medicina, Universidad La Salle (CDMX 2011-2016)
+Instituto Nacional de Pediatría, UNAM (CDMX, 2017-2022)",,https://web.facebook.com/dra.taniavvazquez/,"$1,000"
+Andrea Lopez Lopez,Pediatra,"'55 5606 7245', '55 5606 3481'",5 76 opiniones,"Puente de piedra 150, col. Toriello Guerra, Torre I, consultorio 211,Toriello Guerra,Tlalpan Ciudad de México",https://www.doctoralia.com.mx/andrea-lopez-lopez/pediatra-nutriologo-clinico/tlalpan#address-id=351782&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Medica Sur,"Residencia
+Instituto Nacional de Pediatría
+Children s Hospital of Philadelphia
+Hospital Ángeles
+Hospital Médica Sur
+Mostrar más detalles","Formación
+Universidad Nacional Autónoma de México
+Instituto Nacional de Pediatría
+Instituto Nacional de Ciencias Médicas y Nutrición Salvador Zubirán",,https://www.facebook.com/Dra-Andrea-L%C3%B3pez-L%C3%B3pez-109265417382392,"$1,500"
+Jimena Tsubaki Cifuentes,Pediatra,"'55 4469 4328', '55 5939 9998'",5 140 opiniones,"Adolfo Prieto 1649, Interior 303, Colonia del Valle sur, Ciudad de México,Del Valle,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/jimena-tsubaki-cifuentes/pediatra/ciudad-de-mexico#address-id=390068&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Pediatrix del Valle,,,,https://www.facebook.com/Dra-Jimena-Tsubaki-Neonatologa-106715837586623,$900
+Erick Alberto Rivera Comparan,Pediatra,'55 3045 1631',5 84 opiniones,"Manzanillo 100, Piso 10, consultorio 1002, Roma Sur,Roma Sur,Cuauhtémoc Ciudad de México",https://www.doctoralia.com.mx/erick-alberto-rivera-comparan/pediatra/cuauhtemoc2#address-id=324640&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Privado,"Residencia
+Hospital de Pediatría Centro Médico Nacional Siglo XXI IMSS (2012 - actual)","Formación
+Facultad de Medicina UNAM CU (2002-2008)
+Especialidad de Pediatría en Hospital Centro Médico Nacional Siglo XXI (2008-2012)
+Diplomado en Diagnóstico y Tratamiento en Errores Innatos del Metabolismo INTA U. de Chile (2013)
+Master en Enfermedades Raras Universidad de Valencia (2015)
+Mostrar más detalles",,,"$1,100"
+Diana Martínez Medel,Cirujano pediátrico,'55 9692 7031',5 51 opiniones,"Avenida Presidente Masaryk 134,Polanco V Sección,Miguel Hidalgo Ciudad de México",https://www.doctoralia.com.mx/diana-martinez-medel-2/cirujano-pediatrico-pediatra/miguel-hidalgo#address-id=502434&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Masaryk Medical Center,"Residencia
+Hospital Pediatrico de Tercer Nivel","Formación
+Medicina general - Tecnológico de Monterrey Compus Monterrey
+Pediatría - UNAM - Hospital Angeles del Pedregal
+Cirugia Pediátrica - UNAM - Hospital para el niño poblano",,,"$1,200"
+Pedro Juan Cullen Benítez,Neonatólogo,"'55 5246 9709', '55 5246 9532'",5 218 opiniones,"Hospital Ángeles de las Lomas,Hacienda De Las Palmas,Huixquilucan Ciudad de México",https://www.doctoralia.com.mx/pedro-juan-cullen-benitez/neonatologo-pediatra/miguel-hidalgo#address-id=105373&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio Angeles Lomas,"Residencia
+Unidad de Cuidados Intensivos Neonatales. Hospital Pediátrica Peralvillo 2006-2007
+Unidad de Cuidados Intensivos Neonatales. Hospital General Dr Enrique Cabrera 2007-2008
+Unidad de Pediatría 2007-2012
+Práctica Privada en pediatría y neonatología de 2007 a la fecha","Formación
+Universidad La Salle
+Universidad Nacional Autónoma de México
+Hospital Infantil de México Federico Gómez
+Hospital Ángeles de las Lomas",https://www.linkedin.com/in/pedro-cullen-ben%C3%ADtez-882298b/,https://www.facebook.com/Dr-Pedro-Cullen-Neopediatra-101920972404006,"$1,600"
+Elideth Paniagua Anduiza,Pediatra,"'55 8436 0140', '55 4448 1711'",5 64 opiniones,"Calle Nueva York no 7,Nápoles,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/elideth-paniagua-anduiza/pediatra/ciudad-de-mexico#address-id=409998&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Star Medica Hospital Infantil Privado Clinica 104,"Residencia
+Hospital Povisa, Vigo, España (2017)
+Hospital Infantil Privado (2019-2022)
+Hospital Pediatrico de Tacubaya (2017)
+Centro Medico Dalinde (2018) Doscencia
+Mostrar más detalles","Formación
+Médico cirujano Facultad Mexicana de Medicina Universidad La Salle
+Pediatria Hospital Infantil Privado STÁR MEDICA -UNAM
+Experto en Nutrición Infantil CIENutrition avaldo por la LASPGHAN
+Experta en destete PROLACTAR ESPAÑA (cursando)
+Mostrar más detalles",,,"$1,400"
+Ricardo Tomás Reyes Retana Valdés,Pediatra,'55 1107 7003',5 471 opiniones,"Ameyalco 10-424,Benito Juárez Ciudad de México",https://www.doctoralia.com.mx/ricardo-tomas-reyes-retana-valdes/pediatra/benito-juarez#address-id=123626&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Consultorio privado,"Residencia
+Adscrito y jefe de servicio en Hospital Infantil de Mexico ""Federico Gomez""
+Ex Presidente de la Asociación de Medico del Hospital Infantil de Mexico
+Miembro de La Academia Mexicana de Pediatria","Formación
+Universidad La Salle
+Hospital Infanitl de Mexico ""Federico Gomez""",,https://es-la.facebook.com/ricardo.reyesretanavaldes,$700
+Rogelio Guillén Torres,Pediatra,,5 98 opiniones,"Calle 2,Tlalnepantla de Baz Ciudad de México",https://www.doctoralia.com.mx/rogelio-guillen-torres/pediatra-neonatologo/tlalnepantla-de-baz2#address-id=478301&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,,"Residencia
+JEFE DE GUARDIA 2021-2022 DEL CURSO DE ESPECIALIZACIÓN EN NEONATOLOGÍA DEL INSTITUTO NACIONAL DE PERINATOLOGÍA “ISIDRO ESPINOSA DE LOS REYES”
+ADSCRITO AL SERVICIO DE NEONATOLOGÍA HOSPITAL JUÁREZ DE MÉXICO
+Profesor adjunto en Curso Taller Ultrasonido Pulmonar Impartidos por la Asociación de Neonatólogos de la Ciudad y Valle de México A.C.","Formación
+Universidad de procedencia: UNIVERSIDAD NACIONAL AUTÓNOMA DE MÉXICO Facultad de Estudios Superiores Iztacala (2009-2014)
+PEDIATRÍA: Instituto de Salud del Estado de México. Hospital General de Atizapán. Universidad Autónoma del Estado de México. Periodo Escolar: 2017-2020
+NEONATOLOGÍA : Instituto Nacional de Perinatología, Universidad Nacional Autónoma de México. Periodo Escolar: 2020-2022
+Diplomado Valoración hemodinámica y ultrasonido en el paciente neonato gravemente enfermo. (1760 horas), Institución: Hospital Infantil de México “Federico Gómez”,Universidad Nacional Autónoma de México, 2022-2023",,https://www.facebook.com/UnidadDePediatriaRG,$900
+Antonio Castelán Michel,Pediatra,'55 9692 3010',5 445 opiniones,"Avenida Río Churubusco 601,Xoco,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/antonio-castelan-michel/pediatra-infectologo-pediatra-infectologo/ciudad-de-mexico#address-id=437699&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,"Hospital San Ángel Inn Universidad, Torre 2 de consultorios, Clínica ONAI, Consultorio 142","Residencia
+Especialidad en Pediatría e Infectología - Hospital Infantil de México Federico Gómez (CDMX, 2018-2023).
+Rotación en Infecciones tropicales en Centro de Investigación Regional Dr. Hideyo Noguchi (Mérida, Nov 2022).
+Servicio Social de Pediatría - Hospital General de San Felipe del Progreso (Estado de México, 2021).
+Servicio Social de Medicina General - Centro de Salud La Cruz de Huanacaxtle (Nayarit, 2017)
+Mostrar más detalles","Formación
+Facultad Mexicana de Medicina, Universidad La Salle. Medicina General (2012-2017).
+Hospital Infantil de México Federico Gómez, UNAM. Pediatría (2018-2021).
+Hospital Infantil de México Federico Gómez, UNAM. Infectología (2021-2023).
+Consejo Mexicano de Certificación en Pediatría, 2021-2026.
+Mostrar más detalles",https://www.linkedin.com/in/drantoniocastelan/,https://www.facebook.com/profile.php?id=100091652813818,"$1,300"
+Carmen Curiel Iñiguez,Pediatra,'55 3188 4005',5 114 opiniones,"Calle Pitágoras 920,Cuauhtémoc,Ciudad de México Ciudad de México",https://www.doctoralia.com.mx/carmen-curiel-iniguez/pediatra/ciudad-de-mexico#address-id=412666&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Clínica de Especialidades Médicas y Dentales,"Residencia
+Hospital Materno Infantil ISSEMyM","Formación
+Internado Médico de Pregrado. Junio, 2014. Hospital General de Zona No 1 “Dr. Ernesto Miramontes Cárdenas”. Tepic, Nayarit.
+Especialidad en Pediatría. Febrero 2019. Hospital Materno Infantil ISSEMyM.Universidad Autónoma del Estado de México.Toluca, Estado de México.
+Certificación en Pediatría. Marzo 2019. Consejo Mexicano de Certificación en Pediatría, A.C.Ciudad de México
+Certificado de Estudios como Asesor de Lactancia Materna, acreditado por La Asociación Pro-Lactancia Materna en conjunto con La Confederación Nacional de Pediatría de México. Noviembre 2020.
+Mostrar más detalles",,https://www.facebook.com/Dra-Carmen-Curiel-Pediatra-106258772114855,"$1,100"
+Isaac Chicurel Levin,Pediatra,'55 9692 8366',5 83 opiniones,"Avenida Ejército Nacional 613,Colonia Irrigación,Miguel Hidalgo Ciudad de México",https://www.doctoralia.com.mx/isaac-chicurel-levin/pediatra/miguel-hidalgo#address-id=537203&is-online-only=false&filters%5Bspecializations%5D%5B%5D=73,Hospital Español - Dr. Isaac Chicurel Levin,,,,,"$1,500"
