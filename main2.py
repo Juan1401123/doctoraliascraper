@@ -14,19 +14,16 @@ from selenium.common.exceptions import WebDriverException
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import StaleElementReferenceException
 import random
+from datetime import datetime
 from selenium.common.exceptions import ElementClickInterceptedException
 from selenium.common.exceptions import NoSuchElementException
 import math
 
-enlinea='NO'#NO O SI
-Zona='Ciudad de México'# Verificar bien la escritura
-Especialidad='Pediatra'
-top=25
-start_page=3
 
-listaespecialidades=pd.read_csv('listaespecialidades.csv')
-listaespecialidades1=pd.read_csv('especialidades1.csv')
-listaciudades=pd.read_csv('listaciudades.csv')
+start_page='https://www.doctoralia.com.mx/buscar?q=Ginec%C3%B3logo&loc=Ciudad%20de%20M%C3%A9xico&filters%5Bspecializations%5D%5B0%5D=30&page=3'
+top=25
+
+
 
 options = Options()
 
@@ -46,63 +43,13 @@ options.add_argument('--no-first-run')
 options.add_argument("--disable-popup-blocking") 
 driver = webdriver.Chrome(options=options)
 
-driver.get('https://www.doctoralia.com.mx/')
 
-if len(driver.find_elements(By.CSS_SELECTOR,'#footer > div.row.m-0.w-100.floating-cookie-info > div > div > div > div > div.floating-cookie-info-btn > button'))>=1:
-    try:
-      closewindow=driver.find_element(By.CSS_SELECTOR,'#footer > div.row.m-0.w-100.floating-cookie-info > div > div > div > div > div.floating-cookie-info-btn > button')
-      closewindow.click()
-    except NoSuchElementException:
-       pass
+driver.get(start_page)
 
 
 urls_toscrap=[]
 
 
-time.sleep(2)
-if enlinea=='NO':
-  inputciudad=driver.find_element(By.CSS_SELECTOR,'#search > div > div > div.city-col.mb-1.mb-md-0.col-12.col-md-5 > div > div.dropdown-toggle > div > i > svg')
-  inputciudad.click()
-  time.sleep(.5)
-  vermas=driver.find_element(By.CSS_SELECTOR,'#search > div > div > div.city-col.mb-1.mb-md-0.col-12.col-md-5 > div > div.dropdown-menu.show > ul > div > div')
-  vermas.click()
-  inputsciudad=driver.find_elements(By.XPATH,'/html/body/section[1]/div[2]/div/div/div[1]/div[2]/div[1]/div/div/div/div[2]/div/div[2]/ul/div/li')
-  lugaresdeciudad=int(listaciudades[listaciudades['ciudades']==Zona]['indice'].values)
-  inputsciudad[lugaresdeciudad].click()
-  time.sleep(1)
-  todasesp=driver.find_element(By.CSS_SELECTOR,'#search > div > div > div.specialists-col.mb-1.mb-md-0.col-12.col-md-5 > div > div.dropdown-menu.show > ul > div > div.dropdown-item.d-flex.justify-content-center')
-  todasesp.click()
-  time.sleep(.5)
-  especialidadnum=int(listaespecialidades1[listaespecialidades1['Especialidad']==Especialidad]['indice'].values)
-  inputs1=driver.find_elements(By.XPATH,'/html/body/section[1]/div[2]/div/div/div[1]/div[2]/div[1]/div/div/div/div[1]/div/div[2]/ul/div/div[1]/a')
-  inputs1[especialidadnum].click()
-  time.sleep(1)
-  search1=driver.find_element(By.CSS_SELECTOR,'#search > div > div > div.button-col.col-12.col-md-2 > button')
-  search1.click()
-elif enlinea=='SI':
-  clickenlinea=driver.find_element(By.CSS_SELECTOR,'#homepage-search > div.d-flex.align-items-center.pt-1.mb-1.navigation.nav.text-left > a.btn.btn-lg.ml-0-5')
-  clickenlinea.click()
-  time.sleep(.5)
-  input2=driver.find_element(By.CSS_SELECTOR,'#homepage-search > div.tab-content > div.tab-pane.active > div > div.col-md-10.col-12.dropdown-col > div > div > div.multiselect__caret-wrapper')
-  input2.click()
-  time.sleep(.5)
-  inputs2=driver.find_elements(By.CLASS_NAME,'multiselect__element')
-  lugarespecialidad2=int(listaespecialidades[listaespecialidades['Especialidad']==Especialidad]['indice'].values)
-  inputs2[lugarespecialidad2].click()
-  time.sleep(.5)
-  search=driver.find_element(By.CSS_SELECTOR,'#homepage-search > div.tab-content > div.tab-pane.active > div > div.col-md-2.col-12.button-col > button')
-  search.click()
-else:
-  print('elige si es en linea escribe SI o NO en mayusculas')
-
-
-pagecounter=1
-while pagecounter<start_page:
- driver.execute_script(f"window.scrollBy(0, {15500});")
- if driver.find_elements(By.CLASS_NAME,'page-item')[len(driver.find_elements(By.CLASS_NAME,'page-item'))-1].text=='Siguiente':
-  nextpage=driver.find_elements(By.CLASS_NAME,'page-item')[len(driver.find_elements(By.CLASS_NAME,'page-item'))-1]
-  nextpage.click()
- pagecounter+=1   
 desicion=1
 while desicion==1:
  time.sleep(2)
@@ -116,16 +63,16 @@ while desicion==1:
         urlpre=a.find('h3')
         urls_toscrap.append(urlpre.find('a')['href'])
     except AttributeError:
-      print('no se encuentran doctores con esa especialidad.')
+      print('')
  
  if driver.find_elements(By.CLASS_NAME,'page-item')[len(driver.find_elements(By.CLASS_NAME,'page-item'))-1].text=='Siguiente':
   nextpage=driver.find_elements(By.CLASS_NAME,'page-item')[len(driver.find_elements(By.CLASS_NAME,'page-item'))-1]
   nextpage.click()
   if pd.DataFrame(urls_toscrap)[0].nunique()>=top:
     desicion=0 
-  print(pd.DataFrame(urls_toscrap)[0].nunique())
  else:
    desicion=0
+   
 
 
 
@@ -143,8 +90,7 @@ urls=[]
 clinica=[]
 residencia=[]
 formacion=[]
-linkedinurl=[]
-facebookurl=[]
+redes=[]
 precio=[]
 
 
@@ -168,14 +114,13 @@ for i, e in enumerate(listaurls[:top]):
             if driver.current_url != old_url:
                 break  # Página cargada con éxito
 
-            print(f"Intento {attempts+1} de cargar: {e}")
             driver.get(e)
             time.sleep(2)
             attempts += 1
 
         # Si no cambia de página, reiniciar WebDriver
         if driver.current_url == old_url:
-            print(f"⚠️ ¡No cambia de página! Reiniciando el navegador...")
+            
             driver.quit()
             driver = webdriver.Chrome(options=options)
 
@@ -242,13 +187,13 @@ for i, e in enumerate(listaurls[:top]):
         # Reducir zoom para mejorar detección de botones
         driver.execute_script("document.body.style.zoom='25%'")
         time.sleep(1)
-
+        arrayredes=[]
         # Extraer información adicional
         try:
             btres = driver.find_element(By.CSS_SELECTOR, 'button[class="btn btn-light btn-lg btn-block mt-1"]')
             btres.click()
             time.sleep(.5)
-            preresidencia, preformacion, prelinkedin, prefecebook = None, None, None, None
+            preresidencia, preformacion, unicredes = None, None, None
             for c in driver.find_elements(By.CSS_SELECTOR, '#about-section > div.modal.fade.modal-scrollable.show > div > div > div.modal-body > div'):
                 if 'Residencia' in c.text:
                     preresidencia = c.text
@@ -257,20 +202,16 @@ for i, e in enumerate(listaurls[:top]):
                 elif 'Redes sociales' in c.text:
                     preredes = c.find_elements(By.TAG_NAME, "a")
                     for d in preredes:
-                        if 'Linkedin' in d.text:
-                            prelinkedin = d.get_attribute("href")
-                        elif 'Facebook' in d.text:
-                            prefecebook = d.get_attribute("href")
+                            unicredes= d.get_attribute("href")
+                            arrayredes.append(unicredes)
             residencia.append(preresidencia if preresidencia else None)
             formacion.append(preformacion if preformacion else None)
-            linkedinurl.append(prelinkedin if prelinkedin else None)
-            facebookurl.append(prefecebook if prefecebook else None)
+            redes.append(arrayredes if arrayredes else None)
         except:
             residencia.append(None)
             formacion.append(None)
-            linkedinurl.append(None)
-            facebookurl.append(None)
-
+            redes.append(None)
+            
         # Hacer clic en la página para evitar bloqueos
         driver.execute_script("document.elementFromPoint(200, 300).click();")
         time.sleep(1)
@@ -295,14 +236,13 @@ for i, e in enumerate(listaurls[:top]):
             numerotel.append(numerostel if numerostel else None)
         except:
             numerotel.append(None)
-
+        print(i,e)
         # Reiniciar WebDriver cada 20 iteraciones
         if i % 20 == 0 and i > 0:
             driver.quit()
             driver = webdriver.Chrome(options=options)
-
+        
     except Exception as ex:
-        print(f"⚠️ Error en {e}: {ex}")
         urls.append(e)
         name.append(None)
         especialidad.append(None)
@@ -312,9 +252,9 @@ for i, e in enumerate(listaurls[:top]):
         clinica.append(None)
         formacion.append(None)
         residencia.append(None)
-        linkedinurl.append(None)
-        facebookurl.append(None)
+        redes.append(None)
         precio.append(None)
+
 
 
 
@@ -328,21 +268,30 @@ sample=({
     'clinica':clinica,
     'residencia':residencia,
     'formacion':formacion,
-    'linkedinurl':linkedinurl,
-    'facebookurl':facebookurl,
+    'redes sociales':redes,
     'precio':precio
 })
 
 
-for a in sample:
-    print(a,len(sample[a]))
-
 
 
 sample=pd.DataFrame(sample)
-
-
 sample['numero de telefono']=sample['numero de telefono'].apply(lambda x: str(x).replace('[', '').replace(']', '') if x is not None else None)
+sample['redes sociales']=sample['redes sociales'].apply(lambda x: str(x).replace('[', '').replace(']', '') if x is not None else None)
+sample['opiniones']=sample['rating'].apply(lambda x:' '.join(x.split(' ')[1:])if x is not None else None)
+sample['residencia']=sample['residencia'].apply(lambda x:x.replace('Residencia\n','')if x is not None else None)
+sample['rating']=sample['rating'].apply(lambda x:' '.join(x.split(' ')[0])if x is not None else None)
+sample['formacion']=sample['formacion'].apply(lambda x:x.replace('Formación\n','')if x is not None else None)
+sample['opiniones']=sample['opiniones'].apply(lambda x:x.replace(' opiniones','')if x is not None else None)
+sample[['nombre', 'especialidad', 'numero de telefono', 'rating','opiniones', 'direccion',
+       'url', 'clinica', 'residencia', 'formacion', 'redes sociales', 'precio']]
+print('Creando documento...')
 
-print('creando documento')
-sample.to_csv(Especialidad+Zona+enlinea+'.csv',index=False)
+# Obtener la fecha y hora actual en formato seguro
+fecha_hora_actual = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+
+# Generar el nombre del archivo
+nombre_archivo = f"{fecha_hora_actual}_{len(sample)}.csv"
+
+# Guardar el DataFrame como CSV
+sample.to_csv(nombre_archivo, index=False)
